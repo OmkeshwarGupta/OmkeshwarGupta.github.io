@@ -7,6 +7,7 @@
 body {
   background: #1a1a1a;
   font-family: 'Rubik','Syne';
+  overflow-x: hidden;
   /* font-family: 'Comfortaa', sans-serif; */
   
 }
