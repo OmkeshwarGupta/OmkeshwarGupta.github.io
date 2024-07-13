@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./style.css" type="text/css" media="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Omkeshwar Gupta</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="shortcut icon" href="./images/favicon_io/favicon.ico" type="image/x-icon">
+   <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+
+<body>
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <nav class="flex items-center justify-between">
+      <div class="logo">
+        <img class="h-[90px] w-[90px] md:h-[133px] md:w-[133px]" src="./images/logo.svg" alt="" />
+      </div>
+      <ul class="hidden md:flex flex-row gap-10">
+        <li class="text-sm font-rubik font-normal text-white uppercase">
+          <a href="#">Home</a>
+        </li>
+        <li class="text-sm font-rubik font-normal text-white uppercase">
+          <a href="#about">About me</a>
+        </li>
+        <li class="text-sm font-rubik font-normal text-white uppercase">
+          <a href="#work">My Projects</a>
+        </li>
+      </ul>
+      <div class="md:hidden block">
+        <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" height="1.8em" width="1.8em" class="text-white"
+          id="btn">
+          <path fill="currentColor"
+            d="M7.5 36q-.65 0-1.075-.425Q6 35.15 6 34.5q0-.65.425-1.075Q6.85 33 7.5 33h33q.65 0 1.075.425Q42 33.85 42 34.5q0 .65-.425 1.075Q41.15 36 40.5 36Zm0-10.5q-.65 0-1.075-.425Q6 24.65 6 24q0-.65.425-1.075Q6.85 22.5 7.5 22.5h33q.65 0 1.075.425Q42 23.35 42 24q0 .65-.425 1.075-.425.425-1.075.425Zm0-10.5q-.65 0-1.075-.425Q6 14.15 6 13.5q0-.65.425-1.075Q6.85 12 7.5 12h33q.65 0 1.075.425Q42 12.85 42 13.5q0 .65-.425 1.075Q41.15 15 40.5 15Z" />
+        </svg>
+        <div class="md:hidden">
+          <ul id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-zinc-900 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+            <li class="text-sm font-rubik font-normal text-white uppercase">
+              <a href="#">Home</a>
+            </li>
+            <li class="text-sm font-rubik font-normal text-white uppercase">
+              <a href="#about">About me</a>
+            </li>
+            <li class="text-sm font-rubik font-normal text-white uppercase">
+              <a href="#work">My Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="my-28 h-[330px] flex items-center justify-center" data-aos="fade-right"
+      data-aos-duration="1000">
+      <div class="flex flex-col items-center justify-center px-4">
+        <section class="img-bg md:right-1/4 md:top-[10%]"></section>
+        <h1 class="font-syne font-bold text-4xl  text-white text-center">
+          Hi I'm
+          <div class="stack mt-3 md:text-7xl" style="--stacks: 3;">
+            <span style="--index: 0;">OMKESHWAR GUPTA</span>
+            <span style="--index: 1;">OMKESHWAR GUPTA</span>
+            <span style="--index: 2;">OMKESHWAR GUPTA</span>
+          </div>
+        </h1>
+        <button class="bg-[#ff9142] w-48 h-10 rounded-full flex flex-row items-center justify-center mt-12">
+          <span class="font-bold font-rubik text-xs text-gray-100">
+            <a href="#work">Explore works</a>
+          </span>
+        </button>
+      </div>
+    </section>
+    <section id="about" class="flex md:flex-row flex-col-reverse justify-between gap-10">
+      <section class="hidden md:block img-bg left-4 mt-14"></section>
+      <div class="md:w-2/3 m-auto" data-aos="fade-left" data-aos-duration="1000">
+        <h2 class="text-4xl font-syne font-bold text-white">
+          About me
+        </h2>
+        <p class="text-white font-rubik font-thin text-xl w-full mt-6">
+          A Masters of Computer Science, Student at
+          <a href="https://www.bhu.ac.in/" class="text-[#ff9142]">Banaras Hindu University</a> .
+          I'm a passionate web developer with a
+          strong background in programming and design. I love turning ideas into functional and visually appealing
+          websites, using my skills in HTML, CSS, JavaScript, and more.
+        </p>
+        <button class="bg-[#ff9142] w-48 h-10 rounded-full flex flex-row items-center justify-center mt-12">
+          <span class="font-bold font-rubik text-xs text-gray-100">
+            <a href="#foot">Contact me</a>
+          </span>
+        </button>
+      </div>
+      <div data-aos="fade-left" data-aos-duration="1000">
+        <img class="w-full h-full object-contain border-2 border-black rounded-lg" src="./images/profile.jpg"
+          alt="profile" />
+      </div>
+    </section>
+    <section id="work" class="my-20 flex items-center justify-center flex-col">
+      <h2 class="text-4xl font-syne font-bold text-white text-center">
+        My projects
+      </h2>
+      <!-- <button
+        class="border-[#ff9142] border-2 hover:bg-[#ff9142] w-48 h-10 rounded-full flex flex-row items-center justify-center mt-8">
+        <span class="font-bold font-rubik text-xs text-gray-100">
+          Explore more
+        </span>
+      </button> -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+
+        <div class="p-4" data-aos="flip-right" data-aos-duration="1000">
+          <img src="./images/Project-4.png" alt="Image" class="w-full h-auto" />
+          <div class="mt-4">
+            <h2 class="text-lg font-bold font-syne text-white">
+              <a href="https://omy-weather-app.netlify.app">Weather App</a>
+              
+            </h2>
+            <div class="mt-2">
+              <p class="text-sm text-gray-500 font-rubik">
+                Technology:
+                <span class="text-sm text-white font-rubik">HTML, CSS, JavaScript</span>
+              </p>
+            </div>
+            <div class="mt-2">
+              <p class="text-sm text-gray-500 font-rubik">
+                Github Link:
+                <span class="text-sm text-white font-rubik">
+                  <a href="https://github.com/OmkeshwarGupta/weather-app" class="text-[#ff9142]">click here!</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="p-4" data-aos="flip-left" data-aos-duration="1000">
+          <img src="./images/Project-3.png" alt="Image" class="w-full h-auto"/>
+          <div class="mt-4">
+            <h2 class="text-lg font-bold font-syne text-white">
+              Face Recognition Based Attendance System
+            </h2>
+            <div class="mt-2">
+              <p class="text-sm text-gray-500 font-rubik">
+                Technology:
+                <span class="text-sm text-white font-rubik">OpenCV, Face Recognition, Firebase</span>
+              </p>
+            </div>
+            <div class="mt-2">
+              <p class="text-sm text-gray-500 font-rubik">
+                Github Link:
+                <span class="text-sm text-white font-rubik">
+                  <a href="https://github.com/OmkeshwarGupta/Face-Recognition-Based-Attendance-System" class="text-[#ff9142]">click
+                    here!</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="p-4" data-aos="flip-right" data-aos-duration="1000">
+          <img src="./images/Project-1.png" alt="Image" class="w-full h-auto" />
+          <div class="mt-4">
+            <h2 class="text-lg font-bold font-syne text-white">
+              <a href="https://om-password-generator.netlify.app">Password Generator</a>
+              
+            </h2>
+            <div class="mt-2">
+              <p class="text-sm text-gray-500 font-rubik">
+                Technology:
+                <span class="text-sm text-white font-rubik">HTML, CSS, JavaScript</span>
+              </p>
+            </div>
+            <div class="mt-2">
+              <p class="text-sm text-gray-500 font-rubik">
+                Github Link:
+                <span class="text-sm text-white font-rubik">
+                  <a href="https://github.com/OmkeshwarGupta/Password-generator" class="text-[#ff9142]">click here!</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="p-4" data-aos="flip-left" data-aos-duration="1000">
+          <img src="./images/project-2.png" alt="Image" class="w-full h-auto" />
+          <div class="mt-4">
+            <h2 class="text-lg font-bold font-syne text-white">
+              Razorpay-clone
+            </h2>
+            <div class="mt-2">
+              <p class="text-sm text-gray-500 font-rubik">
+                Technology:
+                <span class="text-sm text-white font-rubik">HTML, Tailwind-CSS</span>
+              </p>
+            </div>
+            <div class="mt-2">
+              <p class="text-sm text-gray-500 font-rubik">
+                Github Link:
+                <span class="text-sm text-white font-rubik">
+                  <a href="https://github.com/OmkeshwarGupta/Razorpay-clone" class="text-[#ff9142]">click
+                    here!</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+
+  </div>
+  <footer id="foot" class="py-8 px-12 bg-zinc-900">
+    <div class="my-4 text-center">
+      <h4 class="text-md font-syne font-bold text-[#ff9142]">
+        Get in Touch With Me
+      </h4>
+      <h2 class="text-xl md:text-3xl font-syne font-bold text-white lowercase mt-2">
+        Omkeshwar@bhu.ac.in
+      </h2>
+    </div>
+    <div class="flex flex-col md:flex-row justify-between gap-10 mt-20 items-center">
+      <div class="my-auto">
+        <img src="./images/logo.svg" alt="" />
+      </div>
+      <!-- <div>
+        <h4 class="text-md font-syne font-bold text-white">
+          Street Avenue 21, CA<br />
+          0-8-00-888-<br />000
+        </h4>
+      </div> -->
+      <div class="flex flex-row gap-2">
+        <!-- <h4 class="text-md font-syne font-bold text-white">+91 8574843334</h4> -->
+        <a href="https://github.com/OmkeshwarGupta"><img src="./images/github.svg" class="w-[50px] h-[50px]"></a>
+        <a href="https://www.linkedin.com/in/omkeshwargupta/"><img src="./images/Linkedin.svg" class="w-[50px] h-[50px]"></a>
+        <a href="https://www.x.com/om_nivert"><img src="./images/X.svg" class="w-[50px] h-[50px]"></a>
+      </div>
+    </div>
+    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+    <h4 class="text-md font-syne font-bold text-white text-center">
+      &copy; 2023. <a href="https://omkeshwar.me" class="text-[#ff9142]">Omkeshwar Gupta</a>. All rights reserved.
+    </h4>
+
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
